@@ -8,7 +8,7 @@ class Config(object):
     # Enable debug mode.
     DEBUG = True
     # Connect to the database
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:121096@localhost/flask_blog'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:password@localhost/flask_blog'
 
     # Turn off the Flask-SQLAlchemy event system and warning
     SQLALCHEMY_TRACK_MODIFICATIONS = False
